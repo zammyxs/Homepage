@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <title>BOHOL MAP</title>
+<style>
+      #arrow {
+        position: absolute;
+        top: 88%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+        background-image: url("https://freepngimg.com/download/web_design/24684-5-right-arrow-transparent-picture.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%);
+        animation: arrow 0.5s ease-in-out infinite alternate;
+      }
+
+      @keyframes arrow {
+        from {
+          transform: translate(-100%, -100%) rotate(0deg);
+        }
+        to {
+          transform: translate(-100%, -100%) rotate(25deg);
+        }
+      }
+
+      @keyframes arrow {
+        from {
+          transform: translate(-100%, -100%) rotate(0deg);
+        }
+        to {
+          transform: translate(-100%, -100%) rotate(25deg);
+        }
+      }
+    .center {
+        margin: auto;
+        width: 55%;
+       }
+    h1{
+        justify-content: center;
+        text-align: center;
+    }
+</style>
+<body>
+<div class="center">
+    <h1><u>BOHOL MAP</u></h1>
+<p>Click the Tagbilaran City:</p>
+<div id="arrow"></div>
+
+<img src="Boholmap.jpg" alt="boholmap" usemap="#boholmap" width="959" height="700">
+
+
+<map name="boholmap">
+  <area shape="circle" coords="170,540, 30" href="tagbilaran.html">
+
+</map>
+    </div>
+</body>
+</html>

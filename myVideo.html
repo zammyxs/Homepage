@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>My YouTube Video</title>
+         <script src="https://kit.fontawesome.com/79166f8cd4.js" crossorigin="anonymous"></script>
+		<style>
+			/* Add custom styles */
+			body {
+				 border: 4px solid black;
+				 background: url("https://img.freepik.com/premium-vector/cute-hearts-background-pastel-colors-papercut-chalk-cute-girly-love-wallpaper_625401-18.jpg");
+			     background-repeat: no-repeat;
+				 background-size: 110%;
+                 justify-content: center;
+				 
+				font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+			}
+			h3 {
+				color: rgb(255, 255, 255);
+				font-size: 50px;
+				font-weight: bold;
+				text-align: center;
+				margin-top: 50px;
+			}
+			.video-wrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 aspect ratio */
+				height: 0;
+				margin: 50px auto;
+				max-width: 800px;
+				box-shadow: 0 4px 6px rgba(2, 183, 255, 0.2);
+			}
+			.video-wrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+            .icon {
+	            display: flex;
+	            gap: 160px;
+	        }  
+		</style>
+	</head>
+	<body>
+		<h3>A DAY IN UB</h3>
+		<div class="video-wrapper">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HP7siGdXyII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+         <div class="icon">
+ <a href="act15.html"> <i class="fa-solid fa-house fa-beat" style="font-size: 3em; color: black"></i></a>
+    </div>
+	</body>
+</html>
