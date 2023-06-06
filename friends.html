@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Friend Registry</title>
+		<style>
+			form {
+				border: 4px solid black;
+				padding: 20px;
+				max-width: 500px;
+				margin: 0 auto;
+				
+			}
+
+			label {
+				display: block;
+				margin-bottom: 10px;
+				font-weight: bold;
+			}
+
+			input[type="text"],
+			input[type="email"],
+			input[type="tel"],
+			textarea {
+				width: 100%;
+				padding: 10px;
+				margin-bottom: 50px;
+				border: 1px solid #881374;
+				border-radius: 5px;
+				box-sizing: border-box;
+				font-size: 16px;
+			}
+
+			input[type="submit"] {
+				background-color: #B0CFDE;
+				color: black;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: alias;
+				font-size: 16px;
+			}
+
+			input[type="submit"]:hover {
+				background-color: #FF8674;
+			}
+            select{
+                padding: 5px;
+                    
+            }
+
+			h1 {
+				text-align: center;
+				font-family: "Times New Roman", Times, serif;
+				font-style: inherit;
+			}
+            body {
+                background-color: #E6E6FA;
+                background-repeat: repeat;
+				background-size: 100%;
+				
+            }
+		</style>
+	</head>
+	<body>
+		<h1>HI FRIEND!</h1>
+		
+		<form action="https://script.google.com/macros/s/AKfycbz_uJC1jZdc-vvKeaHLy1gqcN1o2K4vHc0Xvzv7UZdinLEbZ1yRgjvfsJzXqdg-w_Ot/exec" method='post'>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"/>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male"> 
+            Male
+            <input type="radio" name="gender" value="female"> 
+            Female
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"/>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone"/>
+			<label type="birthday">Birthday:</label>
+            <select name="month">
+                <option value="month">Month</option>
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="may">May</option>
+                <option value="jun">Jun</option>
+                <option value="jul">Jul</option>
+                <option value="aug">Aug</option>
+                <option value="sept">Sept</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+            </select>             
+            <select name="day">
+                <option value="day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="year">
+                <option value="year">Year</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+            </select>
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="address"/>
+			<label for="hobbies">Hobbies (Choose one):</label>
+            <input type="checkbox" name="reading" value="reading" tabindex="1" />Reading <br />
+             <input type="checkbox" name="watching" value="watching" tabindex="1" />Watching <br />
+             <input type="checkbox" name="cooking/baking" value="reading" tabindex="1" />Cooking/Baking <br />
+             <input type="checkbox" name="traveling" value="traveling" tabindex="1" />Traveling <br />
+            <br>
+			<input type="submit" value="Submit" />
+		</form>
+	</body>
+</html>
